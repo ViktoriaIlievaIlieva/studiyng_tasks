@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <style>
+            .red-text {
+                color: red;
+            }
+
+            .green-background {
+                background-color: green;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="red-text">
+            <p id="element1" class="">
+               abcd<br/>
+                efgh
+                igkl
+                mnop
+                qrst
+            </p>
+            <p class="">
+                Another paragraph
+                <a id="element2" href="/contacts#form">Link to Google</a>
+            </p>
+        </div>
+
+        <p class="">
+            other text <span class="red-text">lalalalal</span>
+        </p>
+        <form action="/contact-form" method="post">
+
+            <label for="email-field" >Email</label>
+            <input id="email-field" name="email" type="email" required="required" value="example@gmail.com"/>
+            <br/>
+
+            <label for="auto-login-check">Automatic login next time</label>
+            <input id="auto-login-check" name="auto-login" type="checkbox" value="agreed" />
+            <br/>
+
+
+            <textarea name="long-text-field">
+
+            </textarea>
+            <br/>
+
+            <select name="book-type">
+                <option value="1">Paper</option>
+                <option value="2">Digital</option>
+            </select>
+            <br/>
+
+            <button type="submit">Button Enter</button>
+            <input type="submit" value="Submit Enter" />
+
+        </form>
+    </body>
+</html>

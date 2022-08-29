@@ -1,0 +1,14 @@
+[
+  {
+    "first_name": "Viktoria",
+    "last_name": "Ilieva",
+    "email": "viki@abv.bg",
+    "password": "pass"
+  },
+  {
+    "first_name": "Hristo",
+    "last_name": "Iliev",
+    "email": "ico@abv.bg",
+    "password": "pass2"
+  }
+]

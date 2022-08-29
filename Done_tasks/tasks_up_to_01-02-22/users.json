@@ -1,0 +1,42 @@
+[
+  {
+    "username": "ico",
+    "password": "pass",
+    "active": true
+  },
+  {
+    "username": "viki",
+    "password": "pass2",
+    "active": true
+  },
+  {
+    "username": "deni",
+    "password": "lolo",
+    "active": false
+  },
+  {
+    "username": "ivan",
+    "password": "ppss",
+    "active": false
+  },
+  {
+    "username": "viktor",
+    "password": "asdf",
+    "active": true
+  },
+  {
+    "username": "lidia",
+    "password": "asdasdhg",
+    "active": false
+  },
+  {
+    "username": "tania",
+    "password": "asdfasdg",
+    "active": true
+  },
+  {
+    "username": "martin",
+    "password": "asdadsgfasdg",
+    "active": false
+  }
+]

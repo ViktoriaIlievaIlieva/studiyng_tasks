@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+<div>
+    <input id="input_one" placeholder="0" type="text"/>
+    <select id="operator">
+        <option value="+"> + </option>
+        <option value="-"> - </option>
+        <option value="*"> * </option>
+        <option value="/"> / </option>
+    </select>
+    <input id="input_two" placeholder="0" type="text"/>
+    =
+    <span id="result">?</span>
+</div>
+<button id="calculate_button">Calculate</button>
+</body>
+
+<script type="text/javascript">
+    // This is a JavaScript comment
+
+    // Task 1: listen for the button click event
+    // Task 2: when the button is pressed take the value from the first input and teh second input, add them together and change the text inside the span
+    // Task 3: add a select between the inputs with options for +, -, *, / and when calculate is pressed do the corresponding operation
+
+    // Write your code here
+
+    function Onclick() {
+        let num_1 = parseInt(document.querySelector("#input_one").value);
+        let num_2 = parseInt(document.querySelector("#input_two").value);
+        let operator = document.querySelector("#operator").value;
+        if (operator == "+") {
+            result = num_1 + num_2
+        }
+        else if (operator == "-") {
+            result = num_1 - num_2
+        }
+        else if (operator == "*") {
+            result = num_1 * num_2
+        }
+        else if (operator == "/") {
+            result = num_1 / num_2
+        }
+        document.querySelector("#result").innerHTML = result
+
+
+    }
+
+    let result = document.querySelector("#calculate_button")
+    result.addEventListener("click", Onclick)
+
+
+</script>
+</html>
+

@@ -1,0 +1,2 @@
+text = " Viki wants ico to be more emphatic nd to hear what she is saying it and not to have to have a whole talk everytime for the facts that he is not listening and always end up confused and she misunderstood "
+print (text)
